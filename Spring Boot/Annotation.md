@@ -12,3 +12,10 @@ public void getInfo() {
 }
 ```
 메소드를 오버라이딩 하겠다는 의미로 메소드의 선언 앞에 붙여준다. 
+
+## @Nullable 
+```java
+	Model addAttribute(String attributeName, @Nullable Object attributeValue);
+
+```
+널도 허용한다.
